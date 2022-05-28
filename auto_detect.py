@@ -11,6 +11,6 @@ def return_mode(img,thresh=80):
     return "Night"
 
 img = "image_1.jpeg"
-im = Image.open(img) 
+im = Image.open(img).convert('L')
 mode = return_mode(img)
 print(mode)
