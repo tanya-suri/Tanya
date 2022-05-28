@@ -4,7 +4,7 @@ import numpy as np
 
 
 def return_mode(img,thresh=80):
-  m = np.mean(im)
+  m = np.mean(img)
   if m > 80:
     return "Day"
   else:
