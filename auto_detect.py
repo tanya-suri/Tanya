@@ -12,5 +12,5 @@ def return_mode(img,thresh=80):
 
 img = "image_1.jpeg"
 im = Image.open(img).convert('L')
-mode = return_mode(img)
+mode = return_mode(im)
 print(mode)
